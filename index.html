@@ -4,23 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Sage Grayson</title>
+		<title>Sage Grayson - Portfolio</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="assets/styles.css" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
 	</head>
-	<body class="bg-dark">
+	<body id="hero" class="s-blue s-lighttext s-robo">
 		<!-- navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 			<div class="container-fluid">
 				<!-- title -->
-
-				<a class="navbar-brand" href="#">Sage Grayson</a>
-				<!-- collapts -->
+				<a class="navbar-brand" href="#hero"> SKG</a>
+				<!-- collapse -->
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -38,27 +37,245 @@
 					<span>
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link" href="#">portfolio</a>
+								<a class="nav-link" href="#work">portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">about</a>
+								<a class="nav-link" href="#about">about</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">connect</a>
+								<a class="nav-link" href="#connect">connect</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="https://docs.google.com/document/d/1FGMjGscdKkiZl3iRXX6Uxn97gOUL25VbmfYQcQCKUDo/edit?usp=sharing"
+									>resume</a
+								>
 							</li>
 						</ul>
 					</span>
 				</div>
 			</div>
 		</nav>
-
 		<!-- main -->
 		<main>
-			<!-- about -->
+			<!-- hero -->
+			<div class="px-4 py-5 my-5 text-center">
+				<h1 class="display-5 fw-bold s-hand">Sage Grayson</h1>
+				<div class="col-lg-6 mx-auto">
+					<p class="lead mb-4 s-gold s-mono">Coding - Orlando FL</p>
+				</div>
+			</div>
 			<!-- work -->
-			<!-- connect -->
+			<div class="container py-4" id="work">
+				<div class="row">
+					<div class="col-md-6">
+						<div
+							class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark text-light"
+						>
+							<div
+								class="col p-4 d-flex flex-column position-static"
+							>
+								<h3 class="mb-0">PR3 - Focus</h3>
+								<p class="card-text mb-auto">
+									Focus is a chat app designed to keep your
+									attention on the conversation.
+								</p>
+								<a
+									href="https://github.com/sagegrayson/PR3-Focus"
+									>github</a
+								>
+								<a href="https://focus-deploy.herokuapp.com/"
+									>deploy</a
+								>
+							</div>
+							<div class="col-auto d-none d-lg-block">
+								<div class="s-crop">
+									<img
+										src="./assets/images/pr3.png"
+										alt="placeholder"
+									/>
+								</div>
+							</div>
+						</div>
+						<div
+							class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark text-light"
+						>
+							<div
+								class="col p-4 d-flex flex-column position-static"
+							>
+								<h3 class="mb-0">HW19 Budget Tracker</h3>
+								<p class="card-text mb-auto">
+									This budget tracker utilizes MongoDb and
+									Expree to create an online/offline PWA with
+									a list of transactions.
+								</p>
+								<a
+									href="https://github.com/sagegrayson/HW19-Budget-Tracker"
+									>github</a
+								>
+								<a
+									href="https://budget-tracker-depl.herokuapp.com/"
+									>deploy</a
+								>
+							</div>
+							<div class="col-auto d-none d-lg-block">
+								<div class="s-crop">
+									<img
+										src="./assets/images/hw19.png"
+										alt="placeholder"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div
+							class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark text-light"
+						>
+							<div
+								class="col p-4 d-flex flex-column position-static"
+							>
+								<h3 class="mb-0">HW14 - Tech Blog</h3>
+								<p class="card-text mb-auto">
+									This is a working demo blog with the ability
+									to create an account, log in, and post
+									messages.
+								</p>
+								<a
+									href="https://github.com/sagegrayson/HW14-Tech-Blog"
+									>github</a
+								>
+								<a
+									href="https://tech-blog-deploy.herokuapp.com/"
+									>deploy</a
+								>
+							</div>
+							<div class="col-auto d-none d-lg-block">
+								<div class="s-crop">
+									<img
+										src="./assets/images/hw14.png"
+										alt="placeholder"
+									/>
+								</div>
+							</div>
+						</div>
+						<div
+							class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark text-light"
+						>
+							<div
+								class="col p-4 d-flex flex-column position-static"
+							>
+								<h3 class="mb-0">HW9 - Readme Generator</h3>
+								<p class="card-text mb-auto">
+									This readme generator is built on Javascript
+									and uses Inquirer to prompt the user. The
+									application takes the user's responses and
+									generates a basic README file.
+								</p>
+								<a
+									href="https://github.com/sagegrayson/HW09-Readme-Generator"
+									>github</a
+								>
+							</div>
+							<div class="col-auto d-none d-lg-block">
+								<div class="s-crop">
+									<img
+										src="./assets/images/hw09.png"
+										alt="placeholder"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- about -->
+			<div class="container py-4" id="about">
+				<div class="mb-4">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col">
+								<h2 class="fw-bold">About Me</h2>
+								<p class="fs-5">
+									I've been disassembling and building
+									electronics since I was a kid. I figure now
+									I should probably learn to do the same for
+									websites.
+								</p>
+								<p class="fs-5">
+									In highschool I took AP Computer Science
+									Principles, and I'm currently taking a
+									Columbia Engineering Boot Camp web
+									development course.
+								</p>
+								<p class="fs-5">
+									This has given me experience with
+									HTML/CSS/Javascript, NODE.js, MySQL,
+									MongoDB, PWAs, and React.js among others.
+								</p>
+							</div>
+
+							<div class="col-md-auto">
+								<img
+									src="./assets/images/pfp.jpg"
+									alt="placeholder"
+									style="
+										width: 300px;
+										height: 300px;
+										border-radius: 100%;
+										filter: grayscale(100%);
+									"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 		<!-- footer -->
+		<div class="container" id="connect">
+			<footer class="py-3 my-4">
+				<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+					<li class="nav-item">
+						<a
+							href="https://github.com/sagegrayson"
+							class="nav-link px-2 s-gold s-mono"
+							>github</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							href="https://www.linkedin.com/in/sage-grayson-949872221/"
+							class="nav-link px-2 s-gold s-mono"
+							>linkedin</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							href="https://www.instagram.com/thesagegrayson/"
+							class="nav-link px-2 s-gold s-mono"
+							>instagram</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							href="mailto:sagegrayson@outlook.com"
+							class="nav-link px-2 s-gold s-mono"
+							>email</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							href="tel:+14077609899"
+							class="nav-link px-2 s-gold s-mono"
+							>phone</a
+						>
+					</li>
+				</ul>
+				<p class="text-center text-muted">SKG - 2022</p>
+			</footer>
+		</div>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

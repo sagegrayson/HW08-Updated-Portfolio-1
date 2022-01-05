@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Quicksand:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300;400;700&display=swap");
+
+/* DIV BORDERS ======================== */
+/* * {
+	border: 1px solid red;
+} */
+
+/* VARS =============================== */
+:root {
+	--blue: hsl(218, 36%, 18%);
+	--gold: hsl(31, 69%, 50%);
+	--light: hsl(210, 17%, 98%);
+	--dark: hsl(210, 11%, 15%);
+}
+
+/* UNIVERSAL CLASSES ================== */
+.s-crop {
+	width: 200px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.s-crop img {
+	height: 250px;
+	margin-left: -50%;
+}
+
+.s-blue {
+	background-color: var(--blue);
+}
+
+.s-gold {
+	color: var(--gold);
+}
+.s-lighttext {
+	color: var(--light);
+}
+
+.s-lightback {
+	background-color: var(--light);
+}
+
+.s-darktext {
+	color: var(--dark);
+}
+
+.s-darkback {
+	background-color: var(--dark);
+}
+
+/* FONT ------------------------------ */
+.s-hand {
+	font-family: "Quicksand", sans-serif;
+}
+
+.s-mono {
+	font-family: "Roboto Mono", monospace;
+}
+
+.s-robo {
+	font-family: "Roboto", sans-serif;
+}
